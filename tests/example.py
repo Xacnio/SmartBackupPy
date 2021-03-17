@@ -6,5 +6,5 @@ sys.path.append(parentdir)
 from smartbackup import smartbackup
 # create folder for local backups (backups/)
 # create folder for remote backups (backups/)
-print(smartbackup("test", "backups/", 'test.txt', './backups')) # file backup
-print(smartbackup("test", "backups/", 'test/', './backups')) # directory zipping and backup
+print(smartbackup("test", "backups/", 'testfile.txt', './backups')) # file backup
+print(smartbackup("test", "backups/", 'testfolder/', './backups')) # directory zipping and backup

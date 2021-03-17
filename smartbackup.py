@@ -39,7 +39,7 @@ def smartbackup(prefix, local_backup_dir, path, remote_dir, maxBackupOnRemoteDir
             'error_str': "Directory or file not found",
             'traceback': None,
             'success': False,
-            'uploaded_file': loczip,
+            'uploaded_file': None,
             'remote_dir': remote_dir
         }
     if os.path.isfile(loczip):
